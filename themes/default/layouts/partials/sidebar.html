@@ -1,0 +1,25 @@
+<div class="col-md-4">
+  {{ if and (.Site.Params.sidebar) (isset .Site.Params.sidebar "about") }}
+	<div class="p-4 mb-3 bg-light rounded">
+		<h4 class="fst-italic">About</h4>
+    <p class="mb-0">{{ .Site.Params.sidebar.about | markdownify }}</p>
+	</div>
+  {{ end }}
+
+  {{ if .Site.Params.sidebar }}
+      {{ partialCached "recent.html" .}}
+  {{ end }}
+
+  {{ with .Site.Menus.sidebar }}
+	<div class="p-4">
+		<h4 class="fst-italic">Elsewhere</h4>
+		<ol class="list-unstyled">
+      {{ range . }}
+      <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{ end }}
+		</ol>
+	</div>
+  {{ end }}
+</div>
+
+{{- /* vim: set ts=2 sw=2 et: */}}

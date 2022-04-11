@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sf0 on Scott French</title>
+    <link>/tags/sf0/</link>
+    <description>Recent content in sf0 on Scott French</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Dec 2004 00:00:00 +0000</lastBuildDate><atom:link href="/tags/sf0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beardburst Green SF0 Singlecut Guitar</title>
+      <link>/instruments/beardburst-green-sf0-singlecut-guitar/</link>
+      <pubDate>Sat, 25 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/instruments/beardburst-green-sf0-singlecut-guitar/</guid>
+      <description>Spencer and I started talking about this guitar while I was still in Boston working at First Act.
+We were hoping to get something going with their Studio for Artists program but it never panned out.
+There&#39;s obviously a lot going on here... I think we hit some of the bullet points pretty well and others
+lagged behind a bit. I know the stereo panning ability made it in to an album or two which is always</description>
+    </item>
+    
+    <item>
+      <title>Scott&#39;s Old Guitars</title>
+      <link>/instruments/scotts-old-guitars/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/instruments/scotts-old-guitars/</guid>
+      <description>Here are some guitars I made while attending The Roberto Venn School of Luthiery and my apprenticeship at the First Act Studio for Artists.</description>
+    </item>
+    
+  </channel>
+</rss>

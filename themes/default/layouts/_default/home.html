@@ -1,0 +1,75 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+<main class="flex-shrink-0">
+  <div class="container">
+    <!-- <div class="p-5 mb-4 bg-light">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-primary btn-lg">Example button</button>
+      </div>
+    </div> -->
+    <div class="g-0 container my-4 border shadow-lg row align-items-md-stretch">
+      <div class="col-sm-12 p-0 d-md-none">
+        <img src="{{ $.Site.Params.imgURL }}home/front.jpg" class="img-fluid" alt="SF3co and Two Mesa Boogie Amps" />
+      </div>
+      <div class="col-md-6 col-lg-7 col-xl-6 p-5">
+        <div class="h-100 d-flex align-items-center">
+          <div>
+            <h1 class="display-5 fw-bold lh-1">Very Fancy Guitars</h1>
+            <h3>by Scott French</h3>
+            <p class="lead">Thanks for visiting. I build unique electric guitars and basses here in California.
+              Custom pickups and advanced instrument electronics are in the works.
+              You can view my past work in the Gallery or see what's upcoming in the Journal.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="/instruments/" class="btn bg-pink text-white"><span class="d-none d-lg-inline">Visit the </span>Gallery</a>
+              <a href="/journal/" class="btn bg-light"><span class="d-none d-lg-inline">Read </span>Journal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-xl-block col-xl-1">
+      </div>
+      <div class="col-md-6 col-lg-5 p-0 d-none d-md-block vertical-center" style="background-color: black;">
+        <div class="h-100 d-flex align-items-center">
+          <div>
+            <img src="{{ $.Site.Params.imgURL }}home/front.jpg" class="img-fluid py-md-5 py-lg-0" alt="SF3co and Two Mesa Boogie Amps" />
+            <!-- <div class="h-100" style="background-image: url('{{ $.Site.Params.imgURL }}home/front.jpg'); background-position: bottom; background-size: cover; background-repeat: no-repeat;"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-0 container mb-4 border shadow-lg row align-items-md-stretch">
+      <div class="col-md-6 g-0">
+        {{- range ( where .Site.RegularPages.ByDate.Reverse "Layout" "in" "instrument,journal_entry" | first 1 ) }}
+          <div class="h-100  d-flex align-items-center p-5 text-white text-shadow-1"
+          style="
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ $.Site.Params.imgURL }}{{ .Params.previewImage }}'); background-position: center; background-repeat: no-repeat; background-size: cover; ;">
+            <div>
+              <h2 class="mb-3 display-6 lh-1 fw-bold text-white text-shadow-1"><a href="{{.Permalink}}" class="text-white" style="text-decoration: none;">{{.Title}}</a></h2>
+              <p class="text-shadow-1"><em>{{.Date.Format "January 2, 2006"}}</em></p>
+              <!-- <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p> -->
+              <a href="{{.Permalink}}" class="btn bg-pink text-white">Latest Update</a>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-md-6 g-0">
+        <div class="h-100 p-5 bg-light">
+          <h3><span class="d-none d-lg-inline">Want to </span>learn more?</h3>
+          <p>My goal is to build instuments with interesting features and quality design.
+            Apart from my own instruments I am an avid fan of many builders of guitars, basses, amps, and other gear.
+            Having a deep connection to different types of gear and an interest in many types of music has influenced my instruments.
+            You can learn more about me and my approach to building in the following pages.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="/philosophy/" class="btn bg-pink text-white"><span class="d-none d-lg-inline">My </span>Philosophy</a>
+            <a href="/about/" class="btn bg-light">About<span class="d-none d-lg-inline"> Me</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

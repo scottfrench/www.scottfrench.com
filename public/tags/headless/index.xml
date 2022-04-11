@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>headless on Scott French</title>
+    <link>/tags/headless/</link>
+    <description>Recent content in headless on Scott French</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2006 00:00:00 +0000</lastBuildDate><atom:link href="/tags/headless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bolivian Rosewood &amp; Butternut SF3 Travel Guitar</title>
+      <link>/instruments/rosewood-butternut-sf3-travel-guitar/</link>
+      <pubDate>Mon, 04 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/instruments/rosewood-butternut-sf3-travel-guitar/</guid>
+      <description>I don&#39;t have any stats to back this up, but I am fairly certain this was my most popular
+guitar. I still get random emails from people looking to pick one up. I&#39;m really happy with
+the design and how the guitar turned out, but the Steinberger tuners are a little wonky so I was 
+always considering different options for future travel guitars.</description>
+    </item>
+    
+    <item>
+      <title>Headless SF3 Singlecut Synth Guitar</title>
+      <link>/instruments/headless-sf3-singlecut-synth-guitar/</link>
+      <pubDate>Wed, 26 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/instruments/headless-sf3-singlecut-synth-guitar/</guid>
+      <description>This was a fun project with a lot of elements I had never worked with before. The active pickups and Roland synth setup were interesting and the headless hardware worked out well. This did inspire me to want to work on a more elegant headless setup as the hardware was a bit industrial in design and feel. All the black parts and the heavy headless hardware definitely gave this one a unique feel within my body of work.</description>
+    </item>
+    
+  </channel>
+</rss>

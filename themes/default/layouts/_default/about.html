@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+<main class="flex-shrink-0">
+  <div class="container">
+    <div class="container g-0 mt-4">
+      <div class="row g-0">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+          <div class="container g-0 mb-4">
+            <div class="row p-3 border shadow pt-0">
+              <h3 class="mt-4 g-0 pink light">{{ .Title }}</h3>
+              <hr class="mt-2">
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12">
+          <div class="container g-0 ps-md-5 mb-4">
+            <div class="row p-2 border shadow">
+              
+              <div class="col-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/baby_roland.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/baby_roland.jpg" class="m-0 w-100" alt="With my son and the acoustic I built at Roberto-Venn." />
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/gods.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/gods.jpg" class="m-0 w-100" alt="Meeting Steve Klein and Michihiro Matsuda." />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/boogie.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/boogie.jpg" class="m-0 w-100" alt="Saying goodbye to another hardwood Boogie." />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/scott.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/scott.jpg" class="m-0 w-100" alt="Selfie in the office (tone shed)." />
+                </a>
+              </div>
+              
+              <div class="col-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/roberto_venn.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/roberto_venn.jpg" class="m-0 w-100" alt="Spring 2003 Class of Roberto-Venn" />
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/eddie_scott.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/eddie_scott.jpg" class="m-0 w-100" alt="With an SF3 Singlecut Guitar" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/first_act.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/first_act.jpg" class="m-0 w-100" alt="With Jesse and Kelly at First Act" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/cords.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/cords.jpg" class="m-0 w-100" alt="Lava Retro Coil Scarf" />
+                </a>
+              </div>
+
+              <div class="col-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/baby_scott.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/baby_scott.jpg" class="m-0 w-100" alt="As a baby with my dad's classical gutiar." />
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/beatrix.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/beatrix.jpg" class="m-0 w-100" alt="With an SF3 Singlecut Guitar" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/shop.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/shop.jpg" class="m-0 w-100" alt="With Jesse and Kelly at First Act" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}about/lincoln.jpg" data-gallery="about" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}about/lincoln.jpg" class="m-0 w-100" alt="Lava Retro Coil Scarf" />
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

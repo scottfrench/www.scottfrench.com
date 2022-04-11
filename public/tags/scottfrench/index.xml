@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scottfrench on Scott French</title>
+    <link>/tags/scottfrench/</link>
+    <description>Recent content in scottfrench on Scott French</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/scottfrench/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello! I&#39;m Scott French, a guitar builder and software developer from Northern California. This page is just about me, if you&#39;re interested in learning about my approach to instrument building please check out the Philosophy page instead. The early years I was born in The Capital of Silicon Valley, San Jose in the early 80s. My family later relocated to the Sierra Foothills where I still reside with my own family.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>What a fella!</description>
+    </item>
+    
+  </channel>
+</rss>

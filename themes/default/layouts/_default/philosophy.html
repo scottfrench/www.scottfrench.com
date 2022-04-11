@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+<main class="flex-shrink-0">
+  <div class="container">
+    <div class="container g-0">
+      <div class="row g-0 my-4">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+          <div class="container g-0 mb-0">
+            <div class="row p-3 pt-0 border shadow">
+              <h3 class="mt-4 g-0 pink light">{{ .Title }}</h3>
+              <hr class="mt-2 mb-2">
+                <!-- <p class="small text-end mb-4"><em>Posted on {{ .Date.Format "January 2, 2006" }} by <a href="/about/">Scott French</a></em></p> -->
+                {{ .Content }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12">
+          <div class="container g-0 ps-md-5 mb-0">
+            <div class="row p-2 border shadow">
+              
+              <div class="col-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}philosophy/sf3_singlecut.jpg" data-gallery="philosophy" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}philosophy/sf3_singlecut.jpg" class="m-0 w-100" alt="" />
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}philosophy/singlecut_heel.jpg" data-gallery="philosophy" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}philosophy/singlecut_heel.jpg" class="m-0 w-100" alt="With an SF3 Singlecut Guitar" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}philosophy/sf3_headstock.jpg" data-gallery="philosophy" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}philosophy/sf3_headstock.jpg" class="m-0 w-100" alt="With Jesse and Kelly at First Act" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}philosophy/sf3co_bridge.jpg" data-gallery="philosophy" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}philosophy/sf3co_bridge.jpg" class="m-0 w-100" alt="Lava Retro Coil Scarf" />
+                </a>
+              </div>
+
+              <div class="col-12 p-2">
+                <a href="{{ .Site.Params.imgURL }}philosophy/fire.jpg" data-gallery="philosophy" data-toggle="lightbox">
+                  <img src="{{ $.Site.Params.imgURL }}philosophy/fire.jpg" class="m-0 w-100" alt="" />
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main> 
+{{ end }}

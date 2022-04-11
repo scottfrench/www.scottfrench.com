@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sf1 on Scott French</title>
+    <link>/tags/sf1/</link>
+    <description>Recent content in sf1 on Scott French</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Dec 2005 00:00:00 +0000</lastBuildDate><atom:link href="/tags/sf1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swamp Ash SF3 Lightweight Guitar</title>
+      <link>/instruments/swamp-ash-sf3-lightweight-guitar/</link>
+      <pubDate>Sun, 04 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/instruments/swamp-ash-sf3-lightweight-guitar/</guid>
+      <description>This is a project that evolved a lot from start to finish, but one goal all along was to make a very light
+guitar. This one-piece swamp ash body was light to start, but I had the face sliced off so we could
+do some chambering and make it even lighter.</description>
+    </item>
+    
+  </channel>
+</rss>

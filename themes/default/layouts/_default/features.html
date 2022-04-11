@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+<main class="flex-shrink-0">
+  <div class="container">
+    <div class="container g-0">
+      <div class="row g-0 my-4">
+        <div class="col-12">
+          <div class="container g-0">
+            <div class="row p-3 pt-0 border shadow">
+              <h3 class="mt-4 g-0 pink light">{{ .Title }}</h3>
+              <hr class="mt-2 mb-2">
+              <!-- <p class="small text-end mb-4"><em>Posted on {{ .Date.Format "January 2, 2006" }} by <a href="/about/">Scott French</a></em></p> -->
+              <p class="g-0">
+                {{ .Content }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main> 
+{{ end }}

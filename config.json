@@ -1,0 +1,12 @@
+{
+    "baseURL": "",
+    "languageCode": "en-us",
+    "title": "Scott French",
+    "theme": "default",
+    "permalinks": {
+        "journal": "/journal/:year/:month/:day/:slug/"
+     },
+     "params": {
+        "imgURL": "https://img.scottfrench.com/"
+     }
+}

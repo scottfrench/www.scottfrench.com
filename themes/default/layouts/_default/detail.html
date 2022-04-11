@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-4 dark">{{ .Title }}</h1>
+    <hr class="mt-2 mb-2">
+    <p class="small text-end mb-4"><em>Posted on {{ .Date.Format "January 2, 2006" }} by <a href="/about/">Scott French</a></em></p>
+    <div class="container g-0">
+      <div class="row g-0">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="container g-0 mb-4">
+            <div class="row p-3 pt-0 border shadow">
+              <p class="g-0">
+                {{ .Content }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,111 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+  <main class="flex-shrink-0">
+    <div class="container">
+      <div class="container g-0">
+        <div class="row g-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="container g-0 my-4">
+                <div class="row p-3 pb-0 border shadow">
+                  <div class="col-12 p-0">
+                    <div class="container g-0">
+                      <div class="row g-0">
+                        <div class="col-12">
+                          <h3 class="mt-1 g-0 pink light">{{ .Title }}</h3>
+                          <hr class="mt-2 mb-2">
+                          <p class="small text-end mb-4"><em>Posted on {{ .Date.Format "January 2, 2006" }} by <a href="/about/">Scott French</a></em></p>
+                        </div>
+                      </div>
+                      <div class="row g-0 px-2 px-md-5">
+                        <div class="col-12">
+                          <div class="row g-0 py-1">
+                            <p class="lead">"{{ .Content }}"</p>
+                          </div>
+                          <div class="row g-0 py-1">
+                            <div class="col-4 text-center">
+                              <p>{{ (index $.Params.highlights 0).title }}<br />
+                              <strong class="heavy">{{ (index $.Params.highlights 0).value }}</strong></p>
+                            </div>
+                            <div class="col-4 text-center">
+                              <p>{{ (index $.Params.highlights 1).title }}<br />
+                              <strong class="heavy">{{ (index $.Params.highlights 1).value }}</strong></p>
+                            </div>
+                            <div class="col-4 text-center">
+                              <p>{{ (index $.Params.highlights 2).title }}<br />
+                              <strong class="heavy">{{ (index $.Params.highlights 2).value }}</strong></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 d-md-none">
+              <div class="container g-0 mb-4">
+                <div class="row p-2 border shadow">
+                  <div class="col-12 p-2">
+                    <img src="{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}" class=" m-0 w-100" alt="Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12">
+              <div class="container g-0 mb-4">
+                <div class="row p-3 pt-0 border shadow">
+                  
+                  {{ range .Params.sections }}
+                    <h5 class="mt-4 g-0 pink">{{ .title }}</h5>
+                    <hr class="my-1 w-100" />
+                    <p class="g-0">
+                    {{ range .items }}
+                      {{.}}<br />
+                    {{ end }}
+                    </p>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12">
+              <div class="container g-0 ps-md-5 mb-4">
+                <div class="row p-2 border shadow">
+
+                  <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 p-2 d-none d-md-block">
+                    <div style="background-image: url('{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                      <a href="{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}" data-gallery="instrument" data-toggle="lightbox">
+                        <img src="/100x100.png" class=" m-0 w-100" alt="Image" />
+                      </a>
+                    </div>
+                  </div>
+
+                  {{ range after 1 .Params.images }}
+                  <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 p-2">
+                    <div style="background-image: url('{{ $.Site.Params.imgURL }}{{.}}'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                      <a href="{{ $.Site.Params.imgURL }}{{.}}" data-gallery="instrument" data-toggle="lightbox">
+                        <img src="/100x100.png" class=" m-0 w-100" alt="Image" />
+                      </a>
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+              <div class="container g-0 ps-md-5 mb-4">
+                <div class="row p-3 pt-0 border shadow">
+                  <h5 class="mt-4 g-0 pink">Tags</h5>
+                  <hr class="my-1 w-100" />
+                  <p class="g-0">
+                    {{ range .Params.tags }}
+                      <a href="/tags/{{ . | urlize }}"> <span class="badge bg-dark bg-{{ . }}">#{{ . }}</span></a> 
+                    {{ end }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+{{ end }}
