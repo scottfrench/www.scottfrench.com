@@ -34,6 +34,17 @@
               </p>
             </div>
           </div>
+          <div class="container g-0 my-4">
+            <div class="row p-3 pt-0 border shadow">
+              <h5 class="mt-4 g-0 pink">Tags</h5>
+              <hr class="my-1 w-100" />
+              <p class="g-0">
+                {{ range .Params.tags }}
+                  <a href="/tags/{{ . | urlize }}"> <span class="badge bg-dark bg-{{ . }}">#{{ . }}</span></a> 
+                {{ end }}
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-5 col-md-6 col-sm-12">
           <div class="container g-0 ps-md-5 mb-4">
@@ -60,17 +71,6 @@
               </div>
               {{ end }}
               {{ end }}
-            </div>
-          </div>
-          <div class="container g-0 ps-md-5 mb-4">
-            <div class="row p-3 pt-0 border shadow">
-              <h5 class="mt-4 g-0 pink">Tags</h5>
-              <hr class="my-1 w-100" />
-              <p class="g-0">
-                {{ range .Params.tags }}
-                  <a href="/tags/{{ . | urlize }}"> <span class="badge bg-dark bg-{{ . }}">#{{ . }}</span></a> 
-                {{ end }}
-              </p>
             </div>
           </div>
         </div>

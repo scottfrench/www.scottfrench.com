@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/journal/2022/04/10/website-updates/</loc>
-    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+    <loc>/journal/2022/05/28/may-2022-update/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/may-2022-update/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/update/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2022/05/24/custom-pickup-christian-allen-luthiery/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/pickups/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2022/04/10/website-updates/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/04/09/manifesto-of-an-electric-guitar-builder/</loc>
@@ -18,9 +30,6 @@
     <lastmod>2022-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/cnc/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/pickups/</loc>
     <lastmod>2022-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/progress/</loc>
@@ -37,6 +46,18 @@
   </url><url>
     <loc>/journal/2022/03/19/the-golden-age-of-lutherie/</loc>
     <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/amps/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/milkman/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2022/02/07/milkman-half-pint-walnut-head-mather-cab/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/walnut/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/blerg1/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
@@ -98,9 +119,6 @@
     <loc>/journal/2019/04/14/padauk-mesa-boogie-mark-i-1976-drg/</loc>
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/amp/</loc>
-    <lastmod>2019-04-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/mesaboogie/</loc>
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,6 +127,15 @@
   </url><url>
     <loc>/tags/padauk/</loc>
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2019/01/08/mesa-boogie-imbuia-half-back-cabinet/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2018/11/18/accuwinder-pickup-winder/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2018/05/09/boire-warwick-dolphin-pro-1-bass/</loc>
     <lastmod>2018-05-09T00:00:00+00:00</lastmod>
@@ -125,7 +152,16 @@
     <loc>/tags/wenge/</loc>
     <lastmod>2018-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/journal/2017/05/20/padauk-mesa-boogie-thiele/</loc>
+    <loc>/journal/2017/11/25/mesa-boogie-imbuia-thiele-ported-cab/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2017/09/06/mesa-boogie-mark-iic-plus-head/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2017/09/04/tasmanian-blackwood-mesa-boogie-lone-star-special/</loc>
+    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2017/05/20/mesa-boogie-mark-iii-c-plus-head-drg/</loc>
     <lastmod>2017-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2016/08/26/padauk-mesa-boogie-mark-iib/</loc>
