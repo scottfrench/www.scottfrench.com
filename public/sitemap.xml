@@ -2,13 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/chambered/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/in-progress/chambered-claro-walnut-sf3-carve-top-guitar/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/claro/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/epoxyandoil/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/guitar/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/in-progress/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/lapin-deau/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/one-piece/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sf3/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sf3-2023/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wenge/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2022/07/06/july-2022-update/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/july-2022-update/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/update/</loc>
@@ -39,12 +72,6 @@
     <lastmod>2022-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/cnc/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/progress/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/sf3/</loc>
     <lastmod>2022-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/04/02/the-handmade-question/</loc>
@@ -90,6 +117,9 @@
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/in-progress/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/info/</loc>
@@ -158,9 +188,6 @@
     <loc>/tags/warwick/</loc>
     <lastmod>2018-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/wenge/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/journal/2017/11/25/mesa-boogie-imbuia-thiele-ported-cab/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -185,19 +212,10 @@
     <loc>/tags/imbuya/</loc>
     <lastmod>2014-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/guitar/</loc>
-    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/babygrand/</loc>
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/claro/</loc>
-    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/oilandwax/</loc>
-    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/onepiece/</loc>
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/instruments/claro-walnut-sf3co-eco-guitar-prototype/</loc>
@@ -207,9 +225,6 @@
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/carvetop/</loc>
-    <lastmod>2010-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/chambered/</loc>
     <lastmod>2010-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/polyester/</loc>

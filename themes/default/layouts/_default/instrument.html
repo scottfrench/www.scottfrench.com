@@ -61,7 +61,7 @@
                     <hr class="my-1 w-100" />
                     <p class="g-0">
                     {{ range .items }}
-                      {{.}}<br />
+                    {{ . | htmlUnescape | safeHTML }}<br />
                     {{ end }}
                     </p>
                   {{ end }}
