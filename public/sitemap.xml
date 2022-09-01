@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/journal/2022/08/31/july-2022-update/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/august-2022-update/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/update/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/chambered/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,9 +44,6 @@
     <loc>/tags/sf3-2023/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/wenge/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -42,9 +51,6 @@
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/july-2022-update/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/update/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/inspiration/</loc>
