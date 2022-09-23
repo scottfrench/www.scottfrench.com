@@ -11,7 +11,9 @@
     </div> -->
     <div class="g-0 container my-4 border shadow-lg row align-items-md-stretch">
       <div class="col-sm-12 p-0 d-md-none">
-        <img src="{{ $.Site.Params.imgURL }}home/front.jpg" class="img-fluid" alt="SF3co and Two Mesa Boogie Amps" />
+        <script>
+            document.write('<img src="{{ $.Site.Params.imgURL }}home/home_' + Math.floor(Math.random() * 5) + '.jpg" class="img-fluid" alt="Scott French Guitars" />')
+        </script>
       </div>
       <div class="col-md-6 col-lg-7 col-xl-6 p-5">
         <div class="h-100 d-flex align-items-center">
@@ -21,7 +23,7 @@
             <p class="lead">Thanks for visiting. I build unique electric guitars and basses here
               in Northern California's Sierra Foothills.
               Custom pickups and advanced instrument electronics are in the works.
-              You can view my past work in the Gallery or see what's upcoming in the Journal.
+              You can view my past work in the Gallery or see what's coming up in the Journal.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <a href="/instruments/" class="btn bg-pink text-white"><span class="d-none d-lg-inline">Visit the </span>Gallery</a>
@@ -35,7 +37,9 @@
       <div class="col-md-6 col-lg-5 p-0 d-none d-md-block vertical-center" style="background-color: black;">
         <div class="h-100 d-flex align-items-center">
           <div>
-            <img src="{{ $.Site.Params.imgURL }}home/front.jpg" class="img-fluid py-md-5 py-lg-0" alt="SF3co and Two Mesa Boogie Amps" />
+            <script>
+                document.write('<img src="{{ $.Site.Params.imgURL }}home/home_' + Math.floor(Math.random() * 5) + '.jpg" class="img-fluid py-md-5 py-lg-0" alt="Scott French Guitars" />')
+            </script>
             <!-- <div class="h-100" style="background-image: url('{{ $.Site.Params.imgURL }}home/front.jpg'); background-position: bottom; background-size: cover; background-repeat: no-repeat;"></div> -->
           </div>
         </div>
