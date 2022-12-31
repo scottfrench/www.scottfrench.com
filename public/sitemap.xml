@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/journal/2022/12/30/december-2022-update/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/december-2022-update/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/update/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/lapin-deau/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +21,6 @@
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/november-2022-update/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/update/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/09/22/september-2022-update/</loc>
@@ -182,13 +188,19 @@
     <loc>/tags/sold/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/imbuia/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2021/01/04/mesa-boogie-thiele-cabinet-imbuia/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/thiele/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2019/09/22/1999-taylor-klein-ab-2-imbuia-acoustic-bass/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/acoustic/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/imbuia/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/klein/</loc>
@@ -207,10 +219,16 @@
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/hardwood/</loc>
-    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2019/04/04/mesa-boogie-hardwood-dual-rectifier-blue-angel/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2019/03/29/mesa-boogie-mark-iiic-plus-drg-imbuia-combo/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2019/01/09/mesa-boogie-thiele-cabinet-imbuia/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2019/01/08/mesa-boogie-imbuia-half-back-cabinet/</loc>
     <lastmod>2019-01-08T00:00:00+00:00</lastmod>
@@ -233,6 +251,9 @@
     <loc>/tags/warwick/</loc>
     <lastmod>2018-05-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/journal/2017/12/24/mesa-boogie-padauk-half-back-cabinet/</loc>
+    <lastmod>2017-12-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2017/11/25/mesa-boogie-imbuia-thiele-ported-cab/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -250,6 +271,9 @@
   </url><url>
     <loc>/journal/2017/03/14/mesa-boogie-mark-iii-blue-stripe-drg-imbuia-combo/</loc>
     <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2017/01/17/mesa-boogie-hardwood-wicker-mark-iic-combo/</loc>
+    <lastmod>2017-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2016/10/20/mesa-boogie-mark-iii-purple-stripe-drg-imbuia-combo/</loc>
     <lastmod>2016-10-20T00:00:00+00:00</lastmod>
