@@ -2,20 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/journal/2023/01/31/january-2023-update/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/january-2023-update/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/lapin-deau/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/pickups/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/update/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2022/12/30/december-2022-update/</loc>
     <lastmod>2022-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/december-2022-update/</loc>
     <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/update/</loc>
-    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/lapin-deau/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/11/21/november-2022-update/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
@@ -111,9 +120,6 @@
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/05/24/custom-pickup-christian-allen-luthiery/</loc>
-    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/pickups/</loc>
     <lastmod>2022-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2022/04/10/website-updates/</loc>
