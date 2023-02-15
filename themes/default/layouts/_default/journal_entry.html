@@ -4,7 +4,7 @@
   <div class="container">
     <div class="container g-0">
       <div class="row g-0 my-4">
-        <div class="col-sm-12 d-md-none">
+        <!-- <div class="col-sm-12 d-md-none">
           <div class="container g-0 mb-4">
             <div class="row p-2 border shadow">
               <div class="col-12 p-2">
@@ -16,11 +16,11 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-7 col-md-6 col-sm-12">
           <div class="container g-0">
             <div class="row p-3 pt-0 border shadow">
-              <h3 class="mt-4 g-0 pink light">{{ .Title }}</h3>
+                <h3 class="mt-4 g-0 pink light">{{ .Title }}</h3>
               <hr class="mt-2 mb-2">
               <p class="small text-end mb-4"><em>Posted on {{ .Date.Format "January 2, 2006" }} by <a href="/about">Scott French</a></em></p>
               {{.Content}}
@@ -54,15 +54,8 @@
                 <img src="{{ .Site.Params.imgURL }}{{ index $.Params.previewImage }}" class="w-100 my-3" alt="Illustration" />
               </a>
               {{ else }}
-              <div class="col-12 p-2 d-none d-md-block">
-                <!-- <div style="background-image: url('{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}'); background-size: cover; background-repeat: no-repeat; background-position: center;"> -->
-                  <a href="{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}" data-gallery="journal" data-toggle="lightbox">
-                    <img src="{{ .Site.Params.imgURL }}{{ index $.Params.images 0 }}" class=" m-0 w-100" alt="Image" /><!-- /100x100.png -->
-                  </a>
-                <!-- </div> -->
-              </div>
-              {{ range after 1 .Params.images }}
-              <div class="col-12 p-2">
+              {{ range after 0 .Params.images }}
+              <div class="col-{{ $.Params.cols }} p-2">
                 <!-- <div style="background-image: url('{{ $.Site.Params.imgURL }}{{.}}'); background-size: cover; background-repeat: no-repeat; background-position: center;"> -->
                   <a href="{{ $.Site.Params.imgURL }}{{.}}" data-gallery="journal" data-toggle="lightbox">
                     <img src="{{ $.Site.Params.imgURL }}{{.}}" class=" m-0 w-100" alt="Image" /><!-- /100x100.png -->
