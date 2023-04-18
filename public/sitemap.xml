@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/boire/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/claro/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/imbuia/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/lapin-deau/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/journal/2023/04/17/march-april-2023-update/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/march-april-2023-update/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/one-piece/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/update/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2023/02/28/february-2023-update/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/february-2023-update/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/lapin-deau/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/update/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2023/01/31/january-2023-update/</loc>
@@ -89,9 +107,6 @@
     <loc>/in-progress/chambered-claro-walnut-sf3-carve-top-guitar/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/claro/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/epoxyandoil/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,9 +114,6 @@
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/in-progress/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/one-piece/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/sf3/</loc>
@@ -200,9 +212,6 @@
     <loc>/tags/sold/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/imbuia/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/journal/2021/01/04/mesa-boogie-thiele-imbuia-cabinet/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -252,9 +261,6 @@
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2018/05/09/boire-warwick-dolphin-pro-1-bass/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/boire/</loc>
     <lastmod>2018-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dolphin/</loc>
