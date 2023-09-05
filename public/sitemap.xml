@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/journal/2023/08/31/august-2023-update/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/august-2023-update/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/lapin-deau/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/update/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/journal/2023/07/31/july-2023-update/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/july-2023-update/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/lapin-deau/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/update/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/journal/2023/07/04/2023-first-half-recap/</loc>
